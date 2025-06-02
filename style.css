@@ -1,57 +1,60 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #222;
-  color: #fff;
+body{
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #222;
+  color: white;
   margin: 0;
 }
-
-.container {
-  text-align: center;
-  background: #333;
+h1{
+  color: red;
+  font-size: 35px;
+}
+.container{
+  background-color: #333;
+  box-shadow: 0 0 16px blue;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+  text-align: center;
 }
-
-#clock {
-  font-size: 48px;
+#clock{
+  font-weight: bold;
+  color: yellow;
+  font-size: 40px;
   margin: 20px 0;
 }
-
-.alarm-setter {
+.alarm-setter{
   margin: 20px 0;
 }
-
-input[type="time"] {
-  padding: 5px;
-  font-size: 16px;
+input[type="time"]{
+   padding: 5px;
+   font-size: 18px;
 }
-
-button {
+button{
+  font-weight: bold;
   padding: 10px 20px;
-  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 5px;
   font-size: 16px;
   border: none;
-  cursor: pointer;
-  border-radius: 5px;
 }
-
-#setAlarm {
-  background-color: #28a745;
-  color: white;
+#setalarm{
+  background: green;
 }
-
-#clearAlarm {
-  background-color: #dc3545;
-  color: white;
+#setalarm:hover{
+  background: darkgreen;
 }
-
-#status {
+#clearalarm{
+  margin-top: 5px;
+  margin-right: 8px;
+  background-color: #dc3544;
+}
+#status{
+  color: green;
   margin-top: 15px;
   font-size: 18px;
-  color: #ffc107;
 }
